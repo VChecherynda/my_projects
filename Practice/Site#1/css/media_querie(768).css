@@ -1,0 +1,100 @@
+@media (max-width: 768px) {
+
+	body {width: 768px;}
+
+	header {
+		width: 768px;
+		position: fixed
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 50px;
+		z-index: 999;
+	}
+
+	.logo {
+		font-size: 20px;
+		margin: 0;
+		padding: 10px 0 0 40px;
+	}
+
+
+	.nav {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		margin: 0;
+		display: none;
+	}
+	.nav li {float: none;}
+	.nav li a {
+		border-left: 3px solid transparent;
+		border-top:1px solid #eee;
+		background: #fff;
+		color: #666;
+		text-align: right;
+	}
+
+	.nav li a span {display: none;}
+
+	.nav li:first-child a {border-top: none;}
+	.nav li a:hover {
+		color: #333;
+		background: #f0f0f0;
+	}
+
+	#touch-menu {
+		display: block;
+		box-sizing: border-box;
+		float: right;
+		height: 50px;
+		margin: 0;
+		padding: 8px 10px 0 0 ;
+	}
+
+	/*-- Slider --*/
+
+	#slider .caption {
+		padding-top: 0;
+	}
+
+	#slider .caption h2 {
+		font-size: 30px;
+	}
+
+	#slider .caption a {
+		font-size: 100%;
+	}
+
+	/*-- End --*/
+
+	/*-- Services --*/
+
+	.services p {
+		width: 80%;
+	}
+
+	/*-- End --*/
+
+	/*-- Testimates --*/
+
+	.testimates {
+		width: 100%;
+	}
+
+	.testimates .quotes {
+		right: 100px;
+	}
+
+	.testimates h3 {
+		right: 140px;
+	}
+
+	.caption {
+		margin: 60px 20px; 
+	}
+
+	/*-- End --*/
+
+}

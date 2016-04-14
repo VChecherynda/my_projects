@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Black sea</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="libs/jquery.bxslider.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-			<div class="top_line">
-				<div class="logo">
-					<p>Black Sea</p>
-				</div>
-				<nav class="list">
-					<ul>
-						<li><a href="#">Home<span>/</span></a></li>
-						<li><a href="#">About me<span>/</span></a></li>
-						<li><a href="#">Portfolio<span>/</span></a></li>
-						<li><a href="#">Contact me</a></li>
-					</ul>
-				</nav>
-			</div>
+	<header class="container clearfix">
+		<div class="header_cont">
+			<div class="logo clearfix">
+				<p>Black Sea</p>
+			</div> 
+				<a href="#" id="touch-menu"><i class="fa fa-bars fa-lg"></i></a>
+					<nav>
+						<ul class="nav">
+							<li><a href="#">Home<span>/</span></a></li>
+							<li><a href="#">About me<span>/</span></a></li>
+							<li><a href="#">Portfolio<span>/</span></a></li>
+							<li><a href="#">Contact me</a></li>
+							</ul>
+					</nav>
+		</div>
 	</header>
 
-	<section>
+	<section id="slider">
 
 		<ul class="slider">
 			<li><img src="img/sea.jpg" alt="sea">
@@ -66,7 +66,7 @@
 		<div class="adress">
 			<div class="map">
 				<img src="img/map.jpg" alt="map">
-				<form action="">
+				<form action="#">
 					<input type="text" name="name" placeholder="Name" value="" size ="275"><br>
 					<input type="text" name="email adress" placeholder="email adress" value=""><br>
 					<textarea placeholder="Message" name="message" id="textarea"></textarea><br>
