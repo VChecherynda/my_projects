@@ -1,0 +1,106 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../fonts/RobotoLight/RobotoLight.eot");
+	src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+	url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold/RobotoBold.eot");
+	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
+	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Raleway_bold"; */
+@font-face {
+	font-family: "Raleway_Bold";
+	src: url("../fonts/Raleway/Raleway-Bold.eot");
+	src: url("../fonts/Raleway/Raleway-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Raleway/Raleway-Bold.woff") format("woff"),
+	url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Roboto-Med"; */
+@font-face {
+	font-family: "Raleway_Med";
+	src: url("../fonts/Raleway/Raleway-Medium.eot");
+	src: url("../fonts/Raleway/Raleway-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Raleway/Raleway-Medium.woff") format("woff"),
+	url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "WalkWay" */
+@font-face {
+	font-family: "Walkway_Black";
+	src: url("../fonts/Walkway_black/Walkway Black.eot");
+	src: url("../fonts/Walkway_black/Walkway Black.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Walkway_black/Walkway Black.woff") format("woff"),
+	url("../fonts/Walkway_black/Walkway Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Source_Sans_Pro" */
+@font-face {
+	font-family: "Source_Sans_Pro";
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.eot");
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.woff") format("woff"),
+	url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Source_Sans_Pro_Bold" */
+@font-face {
+	font-family: "Source_Sans_Pro_Bold";
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.eot");
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.woff") format("woff"),
+	url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MyriadPro" */
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro/MyriadPro-Regular.eot");
+	src: url("../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"),
+	url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
