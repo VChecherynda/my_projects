@@ -56,7 +56,80 @@ header {
 	color: #fff;
 }
 
+
+/*-- Hide menu what appear when scroling*/
+
+.hided_menu {
+	width: 100%;
+	background-color: #fff;
+
+}
+
+.hided_menu p {
+	margin: 19px 0 17px 0;
+	color: #323232;
+}
+
+.hided_menu ul {
+	float: right;
+	margin-top: 33px;
+}
+
+.hided_menu ul li {
+	float: left;
+	list-style-type: none;
+	
+}
+
+.hided_menu ul li a {
+	position: relative;
+	margin-left: 25px;
+	font-size: 14px;
+	font-family: 'Raleway_bold',sans-serif;
+	text-transform: uppercase;
+	color: #323232;	
+}
+
+.hided_menu ul li a span {
+	position: absolute;
+	left: 14px;
+	display: block;
+	width: 17px;
+	height: 2px;
+	background-color: #0199E6;
+	color: #0199E6;
+}
+
+
+.hided_menu ul li a.active {
+	color: #0199E6;
+}
+
+.hided_menu ul li:hover a {
+	color: #0199E6;
+}
+
+
+
+.hided_menu.default {
+
+	position: fixed;
+	top: 0;
+	background: #fefefe;
+	-webkit-box-shadow: 0 2px 2px #444;
+	   -moz-box-shadow: 0 2px 2px #444;
+		-ms-box-shadow: 0 2px 2px #444;
+		 -o-box-shadow: 0 2px 2px #444;
+			box-shadow: 0 2px 2px #444;
+	z-index: 9999;
+}
+
+
+/*-----*/
+
+
 .logo p,
+.hided_menu p,
 footer .logo p {
 	margin-top: 47px 0;
 	font-family: 'Walkway_Black',sans-serif;
@@ -64,6 +137,7 @@ footer .logo p {
 }
 
 .logo p span,
+.hided_menu p span,
 footer .logo p span {
 	color: #0199e6;
 }
@@ -680,11 +754,4 @@ footer ul li a:hover {color: #0199e6;}
 /*------*/
 
 
-
-/*-- Hide menu what appear when scroling*/
-.hided_menu {
-	display: none;
-	
-}
-/*-----*/
 
