@@ -24,8 +24,8 @@ $(".hided_menu").attr({style: "display:none"});
 		if ($(this).scrollTop() > 20) {
 			$(".hided_menu").addClass("default").fadeIn('fast');
 			} else {
-			$(".hided_menu").removeClass("default").fadeIn('fast');
 			$(".hided_menu").attr({style: "display:none"});
+
 			
 		};
 	});
